@@ -23,13 +23,14 @@ email: matthew.cherukara@kcl.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Personal webiste for Matthew T. Cherukara.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cherukara.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "cherukara.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  cherukara
 
 # Build settings
-theme: leap-day
+remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
